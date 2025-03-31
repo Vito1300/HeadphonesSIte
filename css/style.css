@@ -32,16 +32,16 @@ body {
   font-size: 16px;
 }
 
-.main__title {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
 .container {
   max-width: 1220px;
   padding: 0px 10px;
   margin: 0 auto;
+}
+
+.main__title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .header {
@@ -156,10 +156,22 @@ body {
 .composition__text {
   text-align: center;
   margin: 0 auto 40px;
-  max-width: 555px;
+  max-width: 655px;
 }
 .composition__inner {
+  max-width: 625px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .composition__inner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.composition__inner-text p {
+  width: 230px;
 }
